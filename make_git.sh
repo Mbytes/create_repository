@@ -12,9 +12,9 @@ fi
 #Temporal
 LOG=/tmp/runme.makegit
 
-USUARIO=USER_GIT
-PWD=PASS_GIT
-NICK=NICK_GIT
+USUARIO=julio@masbytes.es
+PWD=mbytes2github
+NICK=Mbytes
 
 echo curl -u "'${USUARIO}:${PWD}'" https://api.github.com/user/repos -d "'{\"name\":\"'$1'\",\"description\":\"Pendiente\"}'" > ${LOG}
 
